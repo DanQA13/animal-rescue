@@ -5,7 +5,7 @@ header{
     margin-top: 20px;
     max-width: 100%;
     margin: 0px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px rgb(167, 163, 163);
     border-radius: 8px;
     
     }
@@ -19,8 +19,8 @@ header{
   
   ul li {
       display: inline-block;
-      margin: 20px;
-      font-size: 24px;
+      margin: 30px;
+      font-size: 28px;
     }
   
     main{
@@ -34,7 +34,23 @@ header{
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   
   }
-  
+  body {
+    background: rgb(236, 133, 15);
+}
+
+.clock {
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #6Effbb;
+    font-size: 50px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+
+
+}
   article{
     margin: 20px;
     margin-bottom: 20px;
